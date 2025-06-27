@@ -3177,6 +3177,7 @@
         },
         {
             "name": "phenx/php-svg-lib",
+<<<<<<< HEAD
             "version": "0.5.4",
             "source": {
                 "type": "git",
@@ -3187,6 +3188,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/46b25da81613a9cf43c83b2a8c2c1bdab27df691",
                 "reference": "46b25da81613a9cf43c83b2a8c2c1bdab27df691",
+=======
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dompdf/php-svg-lib.git",
+                "reference": "0e46722c154726a5f9ac218197ccc28adba16fcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/0e46722c154726a5f9ac218197ccc28adba16fcf",
+                "reference": "0e46722c154726a5f9ac218197ccc28adba16fcf",
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
                 "shasum": ""
             },
             "require": {
@@ -3217,9 +3230,15 @@
             "homepage": "https://github.com/PhenX/php-svg-lib",
             "support": {
                 "issues": "https://github.com/dompdf/php-svg-lib/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/dompdf/php-svg-lib/tree/0.5.4"
             },
             "time": "2024-04-08T12:52:34+00:00"
+=======
+                "source": "https://github.com/dompdf/php-svg-lib/tree/0.5.3"
+            },
+            "time": "2024-02-23T20:39:24+00:00"
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
         },
         {
             "name": "phpoffice/phpspreadsheet",
@@ -4107,6 +4126,7 @@
         },
         {
             "name": "sabberworm/php-css-parser",
+<<<<<<< HEAD
             "version": "v8.7.0",
             "source": {
                 "type": "git",
@@ -4117,6 +4137,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/f414ff953002a9b18e3a116f5e462c56f21237cf",
                 "reference": "f414ff953002a9b18e3a116f5e462c56f21237cf",
+=======
+            "version": "v8.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
+                "reference": "4a3d572b0f8b28bb6fd016ae8bbfc445facef152"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/4a3d572b0f8b28bb6fd016ae8bbfc445facef152",
+                "reference": "4a3d572b0f8b28bb6fd016ae8bbfc445facef152",
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
                 "shasum": ""
             },
             "require": {
@@ -4124,7 +4156,11 @@
                 "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.40"
+=======
+                "phpunit/phpunit": "^5.7.27"
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -4166,9 +4202,15 @@
             ],
             "support": {
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.7.0"
             },
             "time": "2024-10-27T17:38:32+00:00"
+=======
+                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.5.1"
+            },
+            "time": "2024-02-15T16:41:13+00:00"
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
         },
         {
             "name": "spatie/laravel-package-tools",
@@ -10191,6 +10233,10 @@
     "platform": {
         "php": "^8.1"
     },
+<<<<<<< HEAD
     "platform-dev": {},
+=======
+    "platform-dev": [],
+>>>>>>> 0703136bc6d1200a7708febc6c09cff657200337
     "plugin-api-version": "2.6.0"
 }
