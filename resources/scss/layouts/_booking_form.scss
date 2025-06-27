@@ -25,7 +25,7 @@
         transform: translateY(-50%);
         filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.25));
 
-        width: calc(100% - (var(--margin-size) * 4));
+        width: calc(100% - (var(--margin-size) * 7));
         margin: auto;
 
         &--search {
@@ -97,7 +97,7 @@
         }
 
         &__button {
-            padding: 1rem 2rem;
+            padding: 1rem;
             height: max-content;
             white-space: nowrap;
         }

@@ -104,7 +104,7 @@ class ReservationPaymentService
     public function calculateSubTotal($reservationRooms, $preferredCurrency)
     {
         return collect($reservationRooms)
-            ->map(fn ($room) => $this->getRoomPrice(
+            ->map(fn($room) => $this->getRoomPrice(
                 $this->getRoomDeal($room),
                 $preferredCurrency
             ))

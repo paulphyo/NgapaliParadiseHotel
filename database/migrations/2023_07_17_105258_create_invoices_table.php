@@ -22,7 +22,9 @@ class CreateInvoicesTable extends Migration
     public function down()
     {
         Schema::table('invoices', function (Blueprint $table) {
-            $table->dropForeign(['reservation_id', 'pay_type_id', 'coupon_id']);
+            $table->dropForeign(['reservation_id']); // Drop foreign key by column name
+            $table->dropForeign(['pay_type_id']);    // Drop foreign key by column name
+            $table->dropForeign(['coupon_id']);      // Drop foreign key by column name
         });
         Schema::dropIfExists('invoices');
     }

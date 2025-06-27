@@ -22,14 +22,30 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+
+    <!-- Alpine Core -->
     <script defer
-        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.0/dist/cdn.min.js"></script>
+
+    <!-- Alpine Focus Plugin -->
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.13.0/dist/cdn.min.js"></script>
+
+    <!-- Alpine Plugin Registration (also deferred) -->
+    <script defer>
+        document.addEventListener('alpine:init', () => {
+            Alpine.plugin(window.AlpineFocus);
+        });
+    </script>
+
+
+    <!-- Other libraries -->
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script defer
         src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script defer
         src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
-    <script defer
-        src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
     <!-- Styles -->
