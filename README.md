@@ -1,149 +1,165 @@
-# Ngapali Paradise Hotel Reservation System
 
-Welcome to the **Ngapali Paradise Hotel Reservation System**, a feature-rich and beautifully designed hotel reservation platform. This project was developed as a final-year bachelor's project, showcasing advanced features and a user-friendly interface.
+<h1 align="center">🌴 Ngapali Paradise Hotel Reservation System</h1>
 
-## Table of Contents
+<p align="center">
+  <i>A full-featured hotel booking experience, built with Laravel & love.</i><br>
+  <a href="https://www.figma.com/file/vwrLYsY99At639kmO3F1xt/NgapaliParadiseHotel?type=design&node-id=1088%3A196">
+    🎨 View Figma Prototype
+  </a>
+</p>
 
--   [About the Project](#about-the-project)
--   [Features](#features)
--   [Technologies Used](#technologies-used)
--   [Getting Started](#getting-started)
--   [Screenshots](#screenshots)
--   [License](#license)
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-10.x-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-8.0-blue?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Livewire-Interactive-purple?style=for-the-badge&logo=lightning&logoColor=white" />
+  <img src="https://img.shields.io/badge/Stripe-Payments-635bff?style=for-the-badge&logo=stripe&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tested-PHPUnit-6DB33F?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
+## ✨ Overview
 
----
+Ngapali Paradise is a sleek, modern hotel reservation system designed to make the guest experience seamless — from browsing beautiful rooms to completing a secure booking. Built as a final-year bachelor’s project, it combines a responsive front-end, a powerful Laravel back-end, and Stripe integration.
+    
+## 🖼️ Screenshots
 
-## About the Project
+### 👤 Guest Experience
 
-The Ngapali Paradise Hotel Reservation System is designed to provide a seamless booking experience for guests while offering powerful management tools for administrators. The system includes a responsive front-end, secure back-end, and a variety of features to enhance the user experience.
+#### 🏖️ Landing Page
+<p align="center">
+  <img src=".github/images/landing_page.png" alt="Landing Page" width="80%" />
+</p>
 
-You can view the design prototypes for this project on [Figma](https://www.figma.com/file/vwrLYsY99At639kmO3F1xt/NgapaliParadiseHotel?type=design&node-id=1088%3A196&mode=design&t=STLKuLiDPMsXLhTW-1).
+#### 💳 Booking & Payment
+<p align="center">
+  <img src=".github/images/booking_payment.png" alt="Booking Flow" width="80%" />
+</p>
 
----
-
-## Features
-
-### User-Facing Features
-
--   **Home Page**:
-    -   Intuitive booking form with real-time updates and responsive design.
-    -   Aesthetic room selection with detailed descriptions and image galleries.
-    -   Scroll-based animations for an engaging user experience.
-
--   **Booking System**:
-    -   Seamless booking process with an intuitive interface.
-    -   Coupon system for discounts.
-    -   Secure payment processing with Stripe integration.
-
--   **Authentication System**:
-    -   Advanced Laravel-based authentication with cache optimization.
-
----
-
-### Admin Features
-
--   **Admin Dashboard**:
-    -   Manage rooms, users, and bookings efficiently.
-    -   Generate reports and export data.
-
--   **Automated Tests**:
-    -   Comprehensive test coverage using phpUnit.
+#### 🖼️ Room Gallery
+<p align="center">
+  <img src=".github/images/gallery.png" alt="Room Gallery" width="80%" />
+</p>
 
 ---
 
-## Technologies Used
+### 🧑‍💼 Admin Panel
 
--   **Front-End**: SASS, Alpine.js, Laravel, Livewire
--   **Back-End**: Laravel, MySQL
--   **UI Design**: Figma
--   **Testing**: phpUnit
+#### 📊 Dashboard
+<p align="center">
+  <img src=".github/images/admin_dashboard.png" alt="Admin Dashboard" width="80%" />
+</p>
 
----
-
-## Getting Started
-
-### Prerequisites
-
--   PHP >= 8.0
--   Composer
--   Node.js & npm
--   MySQL
-
-### Installation
-
-1.  Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/NgapaliParadiseHotel.git
-    cd NgapaliParadiseHotel
-    ```
-
-2.  Install dependencies:
-
-    ```bash
-    composer install
-    npm install
-    ```
-
-3.  Set up the environment:
-    -   Copy `.env.example` to `.env`:
-
-        ```bash
-        cp .env.example .env
-        ```
-
-    -   Update the `.env` file with your database and Stripe credentials.
-
-4.  Run migrations and seed the database:
-
-    ```bash
-    php artisan migrate --seed
-    ```
-
-5.  Build front-end assets:
-
-    ```bash
-    npm run dev
-    ```
-
-6.  Start the development server:
-
-    ```bash
-    php artisan serve
-    ```
-
-7.  Access the application at `http://localhost:8000`.
+#### 🛏️ Manage Rooms
+<p align="center">
+  <img src=".github/images/admin_rooms.png" alt="Admin Rooms Management" width="80%" />
+</p>
 
 ---
 
-## Screenshots
+## 🔧 Features
 
-### Home Page
+### 👤 Guest Experience
 
-![Home Page Screenshot](path/to/home-page-screenshot.png)
+- 🏖️ Mobile-friendly landing page with room gallery
+- 🛏️ Browse rooms with lightbox previews
+- 💳 Stripe-integrated secure booking
+- 🎟️ Apply promo codes at checkout
+- 👤 Personal dashboard with reservation history
+- ❌ Cancel reservations before check-in
 
-### Booking System
+### 🧑‍💼 Admin Panel
 
-![Booking System Screenshot](path/to/booking-system-screenshot.png)
+- 📊 Dashboard with booking, room, and user stats
+- 🔍 Live tables (Alpine.js) with sorting, searching, and filtering
+- 🪟 Modal popups for create/edit actions
+- 🖼️ Lightbox image previews
+- ⚡ Toast notifications on CRUD actions
+- 📂 Export bookings to CSV
+- ❌ Cancel or override bookings
+- 🔐 Role-based access control for admin-only pages
 
-### Admin Dashboard
+### 🛠️ System & Dev
 
-![Admin Dashboard Screenshot](path/to/admin-dashboard-screenshot.png)
+- 🧭 Role-based middleware for route protection (admin vs user)
+- 🔐 Laravel Breeze authentication
+- 🧪 PHPUnit test coverage for booking, auth, and CRUD flows
+- ⚙️ Livewire + Alpine.js interactive components
+- 🗄️ MySQL for persistent data
+
+
+## 💡 Tech Stack
+
+| Layer        | Tools Used                         |
+|--------------|------------------------------------|
+| **Frontend** | SASS, Alpine.js, Livewire          |
+| **Backend**  | Laravel, MySQL, Stripe API         |
+| **Testing**  | PHPUnit                            |
+| **Design**   | Figma                              |
 
 ---
 
-## License
+## 🚀 Getting Started
 
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 🛠 Prerequisites
+
+- PHP ≥ 8.0  
+- Composer  
+- Node.js & npm  
+- MySQL  
+
+### 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/NgapaliParadiseHotel.git
+cd NgapaliParadiseHotel
+
+# Install PHP dependencies
+composer install
+
+# Install JS dependencies
+npm install && npm run dev
+
+# Environment setup
+cp .env.example .env
+php artisan key:generate
+
+# Configure .env (DB, Stripe keys)
+
+# Run migrations and seed data
+php artisan migrate --seed
+
+# Start the server
+php artisan serve
+````
+
+Your app is now available at `http://localhost:8000`.
 
 ---
 
-## Contributing
+## 🧪 Testing
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+```bash
+php artisan test
+```
+
+Includes tests for:
+
+* Booking workflow
+* Authentication
+* Admin CRUD
 
 ---
 
-## Contact
+## 📄 License
 
-For any inquiries or feedback, please contact [your-email@example.com].
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+## 📬 Contact
+
+Feel free to reach out if you have questions or want to collaborate:
+
+📧 [paulphyo.dev@gmail.com](mailto:paulphyo.dev@gmail.com)
+<!-- 🌐 [Your Portfolio](https://paulphyo.com) -->
+🔗 [LinkedIn](https://linkedin.com/in/paulphyo19)
+
