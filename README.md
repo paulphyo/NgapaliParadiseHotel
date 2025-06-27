@@ -160,7 +160,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Feel free to reach out if you have questions or want to collaborate:
 
-📧 [paulphyo.dev@gmail.com](mailto:paulphyo.dev@gmail.com)
-<!-- 🌐 [Your Portfolio](https://paulphyo.com) -->
-🔗 [LinkedIn](https://linkedin.com/in/paulphyo19)
+📧 [paulphyo.dev@gmail.com](mailto:paulphyo.dev@gmail.com) 🔗 [LinkedIn](https://linkedin.com/in/paulphyo19)
 
