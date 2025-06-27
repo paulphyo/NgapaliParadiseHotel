@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/Tested-PHPUnit-6DB33F?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
+
 ## ✨ Overview
 
 Ngapali Paradise is a sleek, modern hotel reservation system designed to make the guest experience seamless — from browsing beautiful rooms to completing a secure booking. Built as a final-year bachelor’s project, it combines a responsive front-end, a powerful Laravel back-end, and Stripe integration.
